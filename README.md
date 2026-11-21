@@ -31,12 +31,13 @@ Uygulama henüz dijital imzalı olmadığı için Windows SmartScreen uyarı gö
 - **Kontrol:** Wi-Fi, Bluetooth, tema, güç modu, ses çıkışı, parlaklık, gece ışığı, yenileme hızı, klavye + fare kilidi.
 - **Ekranı karart:** ekran kararır, bilgisayar çalışmaya devam eder.
 - **Telefon:** aynı Wi-Fi'de telefon tarayıcısından kumanda, canlı ekran + touchpad, sunum (lazer, çizim), dosya gönderme. Uygulama kurmak gerekmez.
+- **Ses tanıma (isteğe bağlı, internetsiz):** basılı tut + konuş ile sesli not (Ctrl+Alt+N) ve sesli komut (Ctrl+Alt+V); sağ tık → Altyazı çıkar (.srt). **Ayarlar → Ses → Kur** ile tek düğmede kurulur (yaklaşık 0,7 GB; NVIDIA ekran kartı varsa +1,3 GB ve çok daha hızlı). Yönetici izni istemez, Ayarlar'dan kaldırılabilir.
 
 Her özellik Ayarlar'dan ayrı ayrı açılıp kapatılabilir.
 
 ## Gizlilik
 
-Hesap, sunucu ya da izleme yok. İnternete yalnız şunlar çıkar: hava durumu (Open-Meteo), çeviri (Google Translate, yalnız siz çevirince), şarkı sözü (açıksa) ve bağlarsanız kendi Spotify / WhatsApp hesaplarınız. Ekran görüntüleri, notlar ve dosya dizini bilgisayarınızdan çıkmaz. Telefon bağlantısı yalnız yerel ağda, 6 haneli kodla çalışır.
+Hesap, sunucu ya da izleme yok. İnternete yalnız şunlar çıkar: hava durumu (Open-Meteo), çeviri (Google Translate, yalnız siz çevirince), şarkı sözü (açıksa) ve bağlarsanız kendi Spotify / WhatsApp hesaplarınız. Ses tanıma yalnız kurulumda bir kez iner (Python ve kütüphaneler PyPI'dan, model Hugging Face'ten); sonra tamamen bilgisayarınızda çalışır, sesiniz hiçbir yere gönderilmez. Ekran görüntüleri, notlar ve dosya dizini bilgisayarınızdan çıkmaz. Telefon bağlantısı yalnız yerel ağda, 6 haneli kodla çalışır.
 
 ## Lisans
 
