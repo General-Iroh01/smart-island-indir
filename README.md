@@ -25,7 +25,8 @@ Uygulama henüz dijital imzalı olmadığı için Windows SmartScreen uyarı gö
 ## Neler var
 
 - **Hap:** çalan şarkı (her medya uygulaması), saat + hava durumu, kısayollar, bildirimler. Tam ekran video ve oyunlarda gizlenir.
-- **Hub:** Müzik (Spotify), Dosyalar (son kullanılanlar, sürükle-bırak), anında dosya arama (Ctrl+Alt+F).
+- **Web araması:** haptaki arama düğmesiyle Google ya da YouTube'da ara. Hangi tarayıcıda açılacağını Ayarlar → Web araması'ndan seç (bilgisayardaki tarayıcılar kendiliğinden listelenir).
+- **Hub:** Müzik (Spotify), Dosyalar (son kullanılanlar, sürükle-bırak, anında dosya arama: Ctrl+Alt+F).
 - **Yakala:** bölge ekran görüntüsü (panoya + klasöre), video / GIF kaydı, işaretleme, kırpma.
 - **Araçlar:** çevirmen, QR okuma / oluşturma, takvim, YouTube indirme (kişisel kullanım).
 - **Kontrol:** Wi-Fi, Bluetooth, tema, güç modu, ses çıkışı, parlaklık, gece ışığı, yenileme hızı, klavye + fare kilidi.
