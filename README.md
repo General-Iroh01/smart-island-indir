@@ -29,21 +29,25 @@ Uygulama henüz dijital imzalı olmadığı için Windows SmartScreen uyarı gö
 - **Hap:** çalan şarkı (her medya uygulaması), saat + hava durumu, kısayollar, bildirimler. Tam ekran video ve oyunlarda gizlenir.
 - **Web araması:** haptaki arama düğmesiyle Google ya da YouTube'da ara. Hangi tarayıcıda açılacağını Ayarlar → Web araması'ndan seç (bilgisayardaki tarayıcılar kendiliğinden listelenir).
 - **Hub:** Müzik (Spotify), Dosyalar (son kullanılanlar, sürükle-bırak, anında dosya arama: Ctrl+Alt+F).
+- **Spotify:** playlistlerin, arama ve sıra Müzik sekmesinde; haptaki kapağa tıklayınca kaldığın yerden açılır. Spotify bilgisayarda kurulu değilse **Spotify Web** düğmesi seçtiğin tarayıcıda açar; tarayıcıda çalarken de hapta albüm kapağı görünür. Kendi Spotify geliştirici anahtarınla bağlanır (uygulamada adım adım anlatılır), çalma için Spotify Premium gerekir.
+- **Düzenleyici:** videoyu kırp, altyazı ekle (otomatik yazıya dökme ve Türkçeye çeviri), 9:16 / 1:1 / 4:5 / 16:9 biçim, yazı tipi ve BÜYÜK HARF, videodaki eski altyazıyı ört, ücretsiz Türkçe seslendirme (Windows'un kendi sesi, internetsiz). Dosya Gezgini'nde videoya ya da resme sağ tık → **Island ile düzenle**.
 - **Yakala:** bölge ekran görüntüsü (panoya + klasöre), video / GIF kaydı, işaretleme, kırpma.
 - **Araçlar:** çevirmen, QR okuma / oluşturma, takvim, YouTube indirme (kişisel kullanım).
 - **Kontrol:** Wi-Fi, Bluetooth, tema, güç modu, ses çıkışı, parlaklık, gece ışığı, yenileme hızı, klavye + fare kilidi.
 - **Ekranı karart:** ekran kararır, bilgisayar çalışmaya devam eder.
-- **Telefon:** aynı Wi-Fi'de telefon tarayıcısından kumanda, canlı ekran + touchpad, sunum (lazer, çizim), dosya gönderme. Uygulama kurmak gerekmez.
+- **Telefon:** aynı Wi-Fi'de telefon tarayıcısından kumanda, canlı ekran + touchpad, sunum (lazer, çizim), dosya gönderme. Uygulama kurmak gerekmez. Sabit adres (`smart-island-xxxx.local`): ana ekrana eklenince ağ değişse de çalışır. Genel ağlarda (kafe, kütüphane) telefon bağlantısı kapalıdır, **Bu ağa güven** ile o ağda açılır; 2 yanlış kodda eşleşme 30 dakika kilitlenir.
 - **Ses tanıma (isteğe bağlı, internetsiz):** basılı tut + konuş ile sesli not (Ctrl+Alt+N) ve sesli komut (Ctrl+Alt+V); sağ tık → Altyazı çıkar (.srt). **Ayarlar → Ses → Kur** ile tek düğmede kurulur (yaklaşık 0,7 GB; NVIDIA ekran kartı varsa +1,3 GB ve çok daha hızlı). Yönetici izni istemez, Ayarlar'dan kaldırılabilir.
 
 Her özellik Ayarlar'dan ayrı ayrı açılıp kapatılabilir.
 
 ## Gizlilik
 
-Hesap, sunucu ya da izleme yok. İnternete yalnız şunlar çıkar: hava durumu (Open-Meteo), çeviri (Google Translate, yalnız siz çevirince), şarkı sözü (açıksa) ve bağlarsanız kendi Spotify / WhatsApp hesaplarınız. Ses tanıma yalnız kurulumda bir kez iner (Python ve kütüphaneler PyPI'dan, model Hugging Face'ten); sonra tamamen bilgisayarınızda çalışır, sesiniz hiçbir yere gönderilmez. Ekran görüntüleri, notlar ve dosya dizini bilgisayarınızdan çıkmaz. Telefon bağlantısı yalnız yerel ağda, 6 haneli kodla çalışır.
+Hesap, sunucu ya da izleme yok. İnternete yalnız şunlar çıkar: hava durumu (Open-Meteo), çeviri (Google Translate, yalnız siz çevirince), şarkı sözü (açıksa) ve bağlarsanız kendi Spotify / WhatsApp hesaplarınız. Ses tanıma yalnız kurulumda bir kez iner (Python ve kütüphaneler PyPI'dan, model Hugging Face'ten); sonra tamamen bilgisayarınızda çalışır, sesiniz hiçbir yere gönderilmez. Bilgisayarda zaten ses tanıma kuruluysa onu kendiliğinden bulur. Seslendirme Windows'un kendi sesiyle, internetsiz yapılır. Ekran görüntüleri, notlar ve dosya dizini bilgisayarınızdan çıkmaz. Telefon bağlantısı yalnız yerel ağda, 6 haneli kodla çalışır.
 
 ## Lisans
 
 Tüm hakları saklıdır. Smart Island açık kaynak değildir; bu depoda kaynak kod bulunmaz. Uygulama kişisel kullanım için ücretsiz indirilebilir; izin olmadan kopyalanamaz, değiştirilemez, yeniden dağıtılamaz.
+
+Düzenleyici'deki yazı tipleri SIL Open Font License ile dağıtılır (lisans metinleri uygulamanın içinde).
 
 WhatsApp, YouTube, Google ve Spotify ilgili şirketlerin markalarıdır; Smart Island onlarla bağlantılı değildir.
