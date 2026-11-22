@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="112" alt="Smart Island simgesi"></p>
+
 # Smart Island — Demo
 
 Windows 11 için **Dynamic Island**: ekranın üst ortasında duran küçük bir hap. Fareyle üstüne gelince açılır; çalan şarkı, saat ve hava durumu, kısayollar ve bildirimler tek yerde. Telefondan da kontrol edilir.
