@@ -30,7 +30,7 @@ Uygulama henüz dijital imzalı olmadığı için Windows SmartScreen uyarı gö
 - **Web araması:** haptaki arama düğmesiyle Google ya da YouTube'da ara. Hangi tarayıcıda açılacağını Ayarlar → Web araması'ndan seç (bilgisayardaki tarayıcılar kendiliğinden listelenir).
 - **Hub:** Müzik (Spotify), Dosyalar (son kullanılanlar, sürükle-bırak, anında dosya arama: Ctrl+Alt+F).
 - **Spotify:** playlistlerin, arama ve sıra Müzik sekmesinde; haptaki kapağa tıklayınca kaldığın yerden açılır. Spotify bilgisayarda kurulu değilse **Spotify Web** düğmesi seçtiğin tarayıcıda açar; tarayıcıda çalarken de hapta albüm kapağı görünür. Kendi Spotify geliştirici anahtarınla bağlanır (uygulamada adım adım anlatılır), çalma için Spotify Premium gerekir.
-- **Düzenleyici:** videoyu kırp, altyazı ekle (otomatik yazıya dökme ve Türkçeye çeviri), 9:16 / 1:1 / 4:5 / 16:9 biçim, yazı tipi ve BÜYÜK HARF, videodaki eski altyazıyı ört, ücretsiz Türkçe seslendirme (Windows'un kendi sesi, internetsiz). Dosya Gezgini'nde videoya ya da resme sağ tık → **Island ile düzenle**.
+- **Düzenleyici:** videoyu kırp, altyazı ekle (otomatik yazıya dökme ve Türkçeye çeviri), 9:16 / 1:1 / 4:5 / 16:9 biçim, yazı tipi ve BÜYÜK HARF, videodaki eski altyazıyı ört, Türkçe seslendirme: internetli kadın ses (anahtarsız), Reddit hikâyesi tarzı erkek / kadın ses (ücretsiz ElevenLabs anahtarıyla) ya da Windows'un kendi sesi (internetsiz); videodaki orijinal konuşma kapatılır. Pencere alta alınabilir. Dosya Gezgini'nde videoya ya da resme sağ tık → **Island ile düzenle**.
 - **Yakala:** bölge ekran görüntüsü (panoya + klasöre), video / GIF kaydı, işaretleme, kırpma.
 - **Araçlar:** çevirmen, QR okuma / oluşturma, takvim, YouTube indirme (kişisel kullanım).
 - **Kontrol:** Wi-Fi, Bluetooth, tema, güç modu, ses çıkışı, parlaklık, gece ışığı, yenileme hızı, klavye + fare kilidi.
@@ -42,7 +42,7 @@ Her özellik Ayarlar'dan ayrı ayrı açılıp kapatılabilir.
 
 ## Gizlilik
 
-Hesap, sunucu ya da izleme yok. İnternete yalnız şunlar çıkar: hava durumu (Open-Meteo), çeviri (Google Translate, yalnız siz çevirince), şarkı sözü (açıksa) ve bağlarsanız kendi Spotify / WhatsApp hesaplarınız. Ses tanıma yalnız kurulumda bir kez iner (Python ve kütüphaneler PyPI'dan, model Hugging Face'ten); sonra tamamen bilgisayarınızda çalışır, sesiniz hiçbir yere gönderilmez. Bilgisayarda zaten ses tanıma kuruluysa onu kendiliğinden bulur. Seslendirme Windows'un kendi sesiyle, internetsiz yapılır. Ekran görüntüleri, notlar ve dosya dizini bilgisayarınızdan çıkmaz. Telefon bağlantısı yalnız yerel ağda, 6 haneli kodla çalışır.
+Hesap, sunucu ya da izleme yok. İnternete yalnız şunlar çıkar: hava durumu (Open-Meteo), çeviri (Google Translate, yalnız siz çevirince), şarkı sözü (açıksa) ve bağlarsanız kendi Spotify / WhatsApp hesaplarınız. Ses tanıma yalnız kurulumda bir kez iner (Python ve kütüphaneler PyPI'dan, model Hugging Face'ten); sonra tamamen bilgisayarınızda çalışır, sesiniz hiçbir yere gönderilmez. Bilgisayarda zaten ses tanıma kuruluysa onu kendiliğinden bulur. Seslendirmede Windows sesi internetsizdir; internetli seslerde yalnız altyazı satırlarının metni Google'a ya da (kendi anahtarınızla) ElevenLabs'e gider. Ekran görüntüleri, notlar ve dosya dizini bilgisayarınızdan çıkmaz. Telefon bağlantısı yalnız yerel ağda, 6 haneli kodla çalışır.
 
 ## Lisans
 
